@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://diablo4rumors.com/sitemap.xml
