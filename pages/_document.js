@@ -13,6 +13,11 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
+          <script async src="https://www.googletagmanager.com/gtag/js?id=UA-151466460-1" />
+          <script dangerouslySetInnerHTML={{__html: `window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'UA-151466460-1');`}} />
           <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet" />
         </Head>
         <body>
